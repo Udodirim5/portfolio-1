@@ -1,0 +1,1032 @@
+body {
+  margin: 10px;
+  border-radius: 9px;
+  box-shadow: 2px 5px 5px 5px rgba(27, 24, 24, 0.541);
+
+}
+
+nav {
+  background-color: #dfebea;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .logo {
+  padding: 10px;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff057e;
+}
+
+nav .logo .food {
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+nav .icon {
+  padding: 10px;
+  position: relative;
+  top: 15px;
+}
+
+nav .icon .fa-search {
+  padding: 10px;
+}
+
+nav .icon .fa-shopping-cart {
+  padding: 10px;
+}
+
+nav button {
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ff057e;
+  border-radius: 4%;
+  margin: 15px;
+}
+
+nav .hb{
+  display: none;
+}
+
+/* nav bar ens here */
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.hero .text {
+  padding: 80px;
+  width: 50%;
+  box-shadow: 2px 5px 5px 5px rgba(27, 24, 24, 0.041);
+
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: black;
+}
+
+.hero h1 .del {
+  color: #ff057e;
+}
+
+.hero p {
+  color: black;
+  padding-bottom: 10px;
+}
+
+.hero .red {
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 99px;
+}
+
+.hero .transp {
+  color: #ff057e;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.hero .img {
+  width: 50%;
+}
+
+/*==== END OF HERO =====*/
+
+.middle {
+  text-align: center;
+  background-color: #cccbc8;
+}
+
+.middle h1 {
+  color: black;
+  padding: 10px;
+}
+
+.middle h1 .get {
+  color: #ff057e;
+}
+
+.middle .menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 40px;
+}
+
+.middle .menu .top1 {
+  padding: 10px;
+  background-color: #ff057e;
+  border-radius: 5%;
+  color: white;
+}
+
+.middle .menu .top {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5%;
+  color: #ff057e;
+}
+
+
+.middle .slide {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 40px;
+}
+
+.middle .slide .sly {
+  margin: 20px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5%;
+  color: black;
+}
+
+.middle .slide .sly img {
+  width: 80px;
+  height: 80px;
+}
+
+.middle .slide .sly .star{
+  padding: 5px;
+  color: gold;
+}
+
+
+.middle .slide .sly .star .fa-star{
+  font-size: 10px;
+}
+
+
+.middle .slide .sly h3 {
+  font-size: 20px;
+}
+
+.middle .slide .sly p {
+  font-size: 10px;
+  padding: 10px;
+  color: grey;
+}
+
+
+.middle .slide .sly .add {
+  text-decoration: none;
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+/*=== END OF MIDDLE ===*/
+
+.more {
+  display: flex;
+}
+
+.more .m1 {
+  width: 50%;
+}
+
+.more .m2 {
+  padding: 80px;
+  width: 50%;
+  box-shadow: 2px 5px 5px 5px rgba(27, 24, 24, 0.349);
+
+}
+
+.more .m2 h1 .sit {
+  color: #ff057e;
+}
+
+.more .m2 .dat {
+  display: flex;
+  width: 100%;
+}
+
+.more .m2 .dat .d1 {
+  color: #ff057e;
+  padding: 10px;
+  text-align: center;
+}
+
+.more .m2 .a2 {
+  text-decoration: none;
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 9px;
+}
+/*===============END OF MORE======================*/
+
+
+
+.rest {
+  align-items: center;
+  text-align: center;
+  color: black;
+  background: linear-gradient(180deg, #f7f7f800, #ff057e1e);
+  margin: 0;
+}
+
+.rest h1 {
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.rest h1 .tel {
+  color: #ff057e;
+}
+
+.rest .rest1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rest .rest1 .r1 {
+  margin: 0;
+  width: 40%;
+  justify-content: space-around;
+}
+
+.rest .rest1 .r1 img {
+  box-shadow: 2px 5px 5px 5px rgba(27, 24, 24, 0.349);
+  border-radius: 9px;
+  width: 100%;
+  height: 380px;
+}
+
+.rest .rest1 .dop {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  width: 100%;
+  align-items: center;
+}
+
+.rest .rest1 .dop .y1 {
+  width: 50%;
+  text-align: left;
+  font-size: 10px;
+  margin: 25px;
+}
+
+.rest .rest1 .dop .y2 {
+  text-decoration: none;
+  border-radius: 5%;
+  width: 50%;
+}
+
+.rest .rest1 .dop .y2 .fa-arrow-right {
+  background-color: #ff057e;
+  color: white;
+  border-radius: 9px;
+  padding: 10px;
+  width: 40%;
+}
+
+/* ================== END OF REST1 ====================== */
+
+.rest .rest2 {
+  width: 60%;
+}
+
+.rest .rest2 .rest11 {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.rest .rest2 .r2 img {
+  border-radius: 5%;
+  height: 150px;
+}
+
+.rest .rest2 .rest11 {
+  margin: 20px;
+}
+
+.rest .rest2 .rest11 .r2.z1 {
+  height: 20px;
+  padding: 10px;
+}
+
+
+.rest .rest2 .dop {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  width: 100%;
+  align-items: center;
+}
+
+.rest .rest2 .dop .z1 {
+  width: 50%;
+  text-align: left;
+  font-size: 7px;
+  margin: 25px;
+}
+
+.rest .rest2 .dop .z2 {
+  text-decoration: none;
+  border-radius: 5%;
+  width: 50%;
+}
+
+.rest .rest2 .dop .z2 .fa-arrow-right {
+  background-color: #ff057e;
+  color: white;
+  border-radius: 9px;
+  padding: 3px;
+  width: 40%;
+}
+
+/*================== END OF REST ======================*/
+
+.learn{
+  text-align: center;
+  margin: 20px;
+}
+
+.learn .learn1{
+  text-decoration: none;
+  background-color: #ff057e;
+  color: white;
+  border-radius: 9px;
+  padding: 10px;
+  margin: 70px;
+}
+/*================== END OF LEARN ======================*/
+
+
+
+.clients{
+  display: flex;
+  justify-content: space-around;
+}
+
+.clients .cimg{
+  width: 50%;
+  padding: 80px;
+  text-align: center;
+}
+
+.clients .ctext{
+  width: 50%;
+  padding: 80px;
+  border-radius: 10%;
+  box-shadow: 2px 5px 5px 5px rgba(27, 24, 24, 0.349);
+}
+
+
+.clients .ctext h1{
+  color: black;
+}
+
+.clients .ctext h1 .red{
+  color: #ff057e;
+}
+
+.clients .ctext p .re{
+  position: absolute;
+  /* bottom: %; */
+  z-index: 1;
+  color: #ff057e;
+  font-size: 40px;
+}
+
+.clients .ctext .rea{
+  position: absolute;
+  left: 93%;
+}
+
+.clients .ctext .rea .ree{
+  color: #ff057e;
+  font-size: 40px;
+}
+
+/*  ========== END OF CLIENT  ================ */
+
+.app{
+  display: flex;
+  justify-content: space-around;
+}
+
+.app .aptxt{
+  width: 50%;
+  margin-left: 40px;
+}
+
+.app .aptxt h1{
+  color: black;
+}
+
+.app .aptxt h1 .get{
+  color: #ff057e;
+}
+
+.app .aptxt .app1{
+  display: flex;
+  align-items: center;
+}
+
+.app .aptxt .app1 .appl1 .app12{
+  background-color: #ff057e;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.app .aptxt .app1 .appl1 .app12 p{
+  padding: 10px;
+  color: white;
+}
+
+.app .aptxt .app1 .app2{
+    padding-left: 200px;
+    box-shadow:  4px 5px 4px grey;
+    border-radius: 9px;
+    padding: 10px;
+    position: absolute;  
+    left: 10%;
+  }
+
+  .app .aptxt .app1 .app2 .p{
+    margin: 30px;
+  } 
+      
+.app .aptxt .con{
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.app .aptxt .con .ion{
+  display: flex;
+  border: 1px solid white;
+  box-shadow: 2px 4px 5px 4px gray;
+  background-color: black;
+  align-items: center;
+  color: white;
+  border-radius: 9999px;
+  margin: 10px;
+  padding: 0.625rem;
+}
+
+.app .aptxt .con .ion p .fa-google-play{
+  font-size: 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.app .aptxt .con .ion p .fa-app-store{
+  font-size: 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.app .aptxt .con .ion p .ion1{
+  padding: 10px;
+  font-weight: 600;
+}
+
+.app .aptxt .con .ion p{
+  font-size: 10px;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.app .aptxt .con .ion p .ion1{
+  font-size: 20px;
+}
+
+
+.app .apimg{
+  width: 50%;
+  padding: 20px;
+}
+/*  ========== END OF APP  ================ */
+
+.news{
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news .newsl{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ff057e;
+  align-items: center;
+  color: white;
+  border-radius: 9px;
+}
+
+
+.news .newsl .ntxt p{
+  position: relative;
+  top: 11px;
+}
+
+.news .newsl .nform{
+  display: flex;
+  background-color: white;
+  margin: 50px;
+}
+
+
+.news .newsl .nform form input{
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.news .newsl .nform button{
+  background-color: #ff057e;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*  ========== END OF NEWS  ================ */
+
+
+
+.last{
+  text-align: center;
+  background-color: #ff057e1e;
+  border-bottom: 20px solid #ff057e;
+  padding: 20px;
+}
+
+.last .logo {
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff057e;
+}
+
+.last .logo .food{
+  color: black;
+}
+
+.last h3{
+  padding: 10px;
+}
+
+.last .a1{
+  text-decoration: none;
+  background-color: rgba(72, 129, 129, 0.377);
+  color: black;
+  padding: 10px;
+  box-shadow: 2px 5px 5px 5px #651fa76c;
+}
+
+.last .social{
+  padding: 10px;
+  margin: 40px;
+}
+.last .social .fa-facebook{
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.last .social .fa-twitter{
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.last .social .fa-instagram{
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.last .social .fa-linkedin{
+  background-color: #ff057e;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+
+
+/*======== Responsive ========*/
+
+
+
+
+/* =============== MEDIA QUERIES (MOBILE MODE) =============== */
+
+@media screen and (max-width: 720px){
+  body{
+    margin: 0;
+  }
+  
+nav ul {
+  display: none;
+}
+
+nav .logo{
+  font-size: 20px;
+}
+
+nav .icon {
+  padding: 10px;
+  position: relative;
+  top: 0px;
+}
+
+
+nav button {
+  display: none;
+}
+
+nav .hb{
+  padding: 20px;
+}
+
+nav .hb{
+  display: block;
+}
+/*========= END OF NAV=========*/
+
+
+
+  .hero{
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .hero .text{
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+  }
+    .hero .text h1{
+      font-size: 20px;
+    }
+    
+    .hero .img{
+      width: 100%;
+      text-align: center;
+    }
+    
+    .hero .img img{
+      width: 150px;
+    }
+    /*== END OF HERO ==*/
+
+    
+    .middle{
+      padding: 0;
+      width: 100%;
+    }
+    
+    .middle h1{
+      margin-top: 10px;
+      font-size: 20px;
+    }
+    
+    .middle .menu {
+      padding: 0;
+    }
+    
+    .middle .menu .top1{
+      margin: 10px;
+      border-radius: 9px ;
+      padding: 10px;
+    }
+    
+    .middle .menu .top{
+      margin: 10px;
+      border-radius: 9px;
+      padding: 10px;
+    }
+  /*== END OF HERO ==*/
+  
+  
+  
+.middle .slide{
+  overflow-x: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+.middle .slide {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+}
+
+.middle .slide .sly {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.middle .slide .sly img {
+  width: 40px;
+  height: 40px;
+}
+
+.middle .slide .sly .star{
+  padding: 5px;
+  color: gold;
+}
+
+
+.middle .slide .sly .star .fa-star{
+  font-size: 5px;
+}
+
+
+.middle .slide .sly h3 {
+  font-size: 5px;
+}
+
+.middle .slide .sly p {
+  font-size: 3px;
+  padding: 10px;
+}
+
+
+.middle .slide .sly .add {
+  padding: 1px;
+  font-size: 5px;
+}
+*/
+
+/*=== END OF MIDDLE ===*/
+
+
+
+
+.more {
+  display: block;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.more .m1 {
+  width: 87%;
+  text-align: center;
+}
+
+.more .m1 img{
+  height: 300px;
+}
+
+.more .m2 {
+  padding: 20px;
+  width: 85%;
+  text-align: center;
+}
+
+
+.more .m2 .dat {
+  width: 100%;
+}
+
+.more .m2 .dat .d1 {
+  padding: 0;
+}
+
+.more .m2 .a2 {
+  padding: 5px;
+}
+/*===============END OF MORE======================*/
+
+
+
+
+
+
+.rest .rest1 {
+  display: block;
+  
+}
+
+.rest .rest1 .r1 {
+  margin: 0;
+  width: 100%;
+}
+
+.rest .rest1 .r1 img {
+  height: 200px;
+  width: 85%;
+  text-align: center;
+}
+
+
+/* ================== END OF REST1 ====================== */
+
+
+.rest .rest2 {
+  width: 100%;
+  height: 400px;
+}
+
+.rest .rest2 .r2{
+  margin: 10px;
+  padding: 0;
+}
+
+.rest .rest2 .r2 img {
+  height: 100px;
+}
+
+.rest .rest2 .rest11 {
+  margin: 20px;
+}
+
+.rest .rest2 .rest11 .r2.z1 {
+  height: 20px;
+  padding: 10px;
+}
+
+.rest .rest2 .rest11 .r2 .dop{
+  height: 40px;
+}
+
+.rest .rest2 .dop .z2 .fa-arrow-right {
+  padding: 3px;
+  width: 40%;
+}
+
+/*================== END OF REST ======================*/
+
+
+
+.clients{
+  display: block;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.clients .cimg{
+  width: 100%;
+  padding: 20px;
+}
+
+.clients  .cimg img{
+  height: 300px;
+}
+
+.clients .ctext{
+  width: 92%;
+  padding: 5px;
+}
+
+.clients .ctext p .re{
+  left: 10%;
+}
+
+.clients .ctext .rea{
+  left: 80%;
+}
+
+/*  ========== END OF CLIENT  ================ */
+
+
+.app{
+  display: block;
+  text-align: center;
+}
+
+.app .aptxt{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.app .aptxt .app1 .appl1{
+  margin: 40px;
+}
+
+
+.app .aptxt .app1 .appl1 .app12 p{
+  padding: 10px;
+}
+
+app .aptxt .app1 .app2{
+    padding-left: 1px;
+  }
+  
+
+.app .aptxt .con{
+  padding: 40px;
+}
+
+.app .aptxt .con .ion{
+  border-radius: 9px;
+  margin: 10px;
+  padding: 0.625rem;
+  width: 130px;
+}
+
+.app .aptxt .con .ion p .ion1{
+  font-size: 20px;
+}
+
+
+.app .aptxt .con .ion p .fa-google-play{
+  font-size: 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.app .aptxt .con .ion p .fa-app-store{
+  font-size: 20px;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.app .aptxt .con .ion p .ion1{
+  padding: 10px;
+  font-weight: 600;
+}
+
+.app .aptxt .con .ion p{
+  font-size: 10px;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.app .apimg{
+  width: 100%;
+  padding: 0;
+}
+
+.app .apimg img{
+  height: 300px;
+}
+/*  ========== END OF APP  ================ */
+
+.news{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news .newsl{
+  display: block;
+  padding: 10px;
+}
+
+.news .newsl .nform{
+  display: flex;
+  margin: 50px;
+}
+
+.news .newsl .nform form input{
+  width: 80%;
+  margin: 10px;
+  padding: 10px;
+}
+/*  ========== END OF NEWS  ================ */
+}  
+
